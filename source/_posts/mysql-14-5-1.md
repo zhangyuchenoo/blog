@@ -3,6 +3,10 @@ title: mysql-14.5.1
 date: 2017-08-09 15:35:20
 tags:
  - mysql
+categories:
+ - tech
+ - translate
+ - mysql
 ---
 
 
