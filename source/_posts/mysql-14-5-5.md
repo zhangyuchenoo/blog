@@ -3,18 +3,24 @@ title: mysql-14-5-5
 tags:
   - mysql
 categories:
-  - tech 
+  - tech
   - translate
   - mysql
+date: 2017-08-24 13:57:59
 ---
+
+<font color='blue' style="font-style:italic" size="3">Years may wrinkle the skin,but to give up enthusiasm wrinkles soul.</font>
+
+------
+
 
 
 
 ## 14.5.5 InnoDB中的死锁
 
- - [14.5.5.1 InnoDB死锁案例](/tech/translate/mysql/mysql-14-5-1/)
- - [14.5.5.2 死锁检测与回滚](/tech/translate/mysql/mysql-14-5-2/)
- - [14.5.5.3 如何最小化与处理死锁](/tech/translate/mysql/mysql-14-5-3/)
+ - [14.5.5.1 InnoDB死锁案例](/tech/translate/mysql/mysql-14-5-5-1/)
+ - [14.5.5.2 死锁检测与回滚](/tech/translate/mysql/mysql-14-5-5-2/)
+ - [14.5.5.3 如何最小化与处理死锁](/tech/translate/mysql/mysql-14-5-5-3/)
  
 &emsp;&emsp;死锁是指不同的事务持有对方所需的锁，从而事务无法继续处理的情形，这种情形下，每个事务都在等待对方的锁，且都不会释放自己所占有的锁。
 
