@@ -41,11 +41,9 @@ categories:
  ----|----|----|----|----|----
  MVCC|Yes|Geospatial data type support|Yes|Geospatial indexing support|Yes[a]
 B-tree indexes|Yes|T-tree indexes|	No	|Hash indexes|	No[b]
-
 Full-text search indexes	|Yes[c]	|Clustered indexes|	Yes	|Data caches|	Yes
-|Index caches|	Yes	|Compressed data|	Yes[d]|Encrypted data[e]|Yes
-Cluster database support	|No |	Replication support[f]|	Yes	|Foreign key support
-	Yes
+Index caches|	Yes	|Compressed data|	Yes[d]|Encrypted data[e]|Yes
+Cluster database support	|No |	Replication support[f]|	Yes	|Foreign key support|Yes
 Backup / point-in-time recovery[g]	|Yes	|Query cache support|	Yes	|Update statistics for data dictionary|	Yes
 
 
@@ -65,7 +63,7 @@ Backup / point-in-time recovery[g]	|Yes	|Query cache support|	Yes	|Update statis
 
 &emsp;&emsp;要与MySQL提供的其他引擎作比较，见15章[可选的存储引擎]()。
 
-###InnoDB改进与新功能
+### InnoDB改进与新功能
 
 &emsp;&emsp;要了解更多InnoDB的新功能，参见：
 
@@ -74,7 +72,7 @@ Backup / point-in-time recovery[g]	|Yes	|Query cache support|	Yes	|Update statis
 
 - 版本说明.
 
-###其他InnoDB相关的信息与资源
+### 其他InnoDB相关的信息与资源
 
 - InnoDB相关的术语与定义，参见MySQL词汇表。
 - InnoDB引擎相关的论坛,见MySQL论坛InnoDB板块。
