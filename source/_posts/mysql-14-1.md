@@ -41,13 +41,12 @@ categories:
  ----|----|----|----|----|----
  MVCC|Yes|Geospatial data type support|Yes|Geospatial indexing support|Yes[a]
 B-tree indexes|Yes|T-tree indexes|	No	|Hash indexes|	No[b]
-|Full-text search indexes	Yes[c]	
-Clustered indexes|	Yes	|Data caches|	Yes
-|Index caches|	Yes	|Compressed data|	Yes[d]|
-|Encrypted data[e]
+
+Full-text search indexes	|Yes[c]	|Clustered indexes|	Yes	|Data caches|	Yes
+|Index caches|	Yes	|Compressed data|	Yes[d]|Encrypted data[e]|Yes
+Cluster database support	|No |	Replication support[f]|	Yes	|Foreign key support
 	Yes
-Cluster database support	No	Replication support[f]	Yes	Foreign key support	Yes
-Backup / point-in-time recovery[g]	Yes	Query cache support	Yes	Update statistics for data dictionary	Yes
+Backup / point-in-time recovery[g]	|Yes	|Query cache support|	Yes	|Update statistics for data dictionary|	Yes
 
 
 [a]: http:// "InnoDB support for geospatial indexing is available in MySQL 5.7.5 and later."
