@@ -14,7 +14,7 @@ categories:
 
 ------
 
-##InnoDB简介
+## InnoDB简介
 
 - 14.1.1 使用InnoDB表的好处
 - 14.1.2 InnoDB表最佳实践
@@ -37,14 +37,14 @@ categories:
 表14.1 InnoDB存储引擎特性
 
 
- Storage limits|64TB|Transactions|Yes|Locking granularity|Row
+存储限制|64TB|事务|支持|锁粒度|行
  ----|----|----|----|----|----
- MVCC|Yes|Geospatial data type support|Yes|Geospatial indexing support|Yes[a]
-B-tree indexes|Yes|T-tree indexes|	No	|Hash indexes|	No[b]
-Full-text search indexes	|Yes[c]	|Clustered indexes|	Yes	|Data caches|	Yes
-Index caches|	Yes	|Compressed data|	Yes[d]|Encrypted data[e]|Yes
-Cluster database support	|No |	Replication support[f]|	Yes	|Foreign key support|Yes
-Backup / point-in-time recovery[g]	|Yes	|Query cache support|	Yes	|Update statistics for data dictionary|	Yes
+MVCC|支持|地理数据类型|支持|地理数据索引支持|是[a]
+B-tree索引|支持|T-tree索引|不支持	|Hash索引|不支持[b]
+全文索引	|支持[c]	|聚簇索引|支持|数据缓存|支持
+索引缓存|支持	|数据压缩|支持[d]|数据加密[e]|支持
+数据库集群|不支持 |数据库复制[f]|支持|外键|支持
+备份/时间点恢复[g]|支持|查询缓存|支持|数据字典统计数据更新|支持
 
 
 [a]: http:// "InnoDB support for geospatial indexing is available in MySQL 5.7.5 and later."
