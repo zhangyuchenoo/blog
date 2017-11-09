@@ -31,5 +31,4 @@ categories:
 
 &emsp;&emsp;你通过SHOW ENGINE INNODB STATUS命令输出中SEMAPHORES区监控自适应索引的使用。如果你看到许多线程在等待btr0sea.c中创建的RW-latch，那很可能你应该关闭自适应索引。
 
-&emsp;&emsp;要了解更多哈希索引的性能，参见[8.3.8B树索引与哈希索引的比较]()
-For more information about the performance characteristics of hash indexes, see Section 8.3.8, “Comparison of B-Tree and Hash Indexes”.
+&emsp;&emsp;要了解更多哈希索引的性能，参见[8.3.8B树索引与哈希索引的比较]()。
